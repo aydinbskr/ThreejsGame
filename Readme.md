@@ -1,9 +1,9 @@
-# Simple Gamke
+# Simple Game
 
 This is a simple game developed with three.js library.
 
 
-```
+![alt text](https://github.com/aydinbskr/ThreejsGame/1.png?raw=true)
 
 ## Usage
 
