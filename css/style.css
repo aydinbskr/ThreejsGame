@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.panel {
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 2em 3em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#scores {
+    font-size: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em 1em;
+    width: 50%;
+    box-sizing: border-box;
+    color: white;
+}
+#speed {
+    font-size: 150%;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    padding: 1em 1em;
+    width: 50%;
+    box-sizing: border-box;
+    color: white;
+}
+
+#variable-content {
+    margin-top: 16em;
+    margin-left: 16em;
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    line-height: 150%;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+
+.animate-flicker {
+   -webkit-animation: flickerAnimation 1.5s infinite;
+   -moz-animation: flickerAnimation 1.5s infinite;
+   -o-animation: flickerAnimation 1.5s infinite;
+    animation: flickerAnimation 1.5s infinite;
+}
