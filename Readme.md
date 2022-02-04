@@ -3,7 +3,7 @@
 This is a simple game developed with three.js library.
 
 
-![alt text](https://github.com/aydinbskr/ThreejsGame/1.png?raw=true)
+![alt text](https://github.com/aydinbskr/ThreejsGame/1.png)
 
 ## Usage
 
